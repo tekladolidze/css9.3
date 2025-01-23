@@ -101,11 +101,20 @@ body{
 
 #Recommended_box{
     display: flex;
+    align-items: center;
     flex-direction: column;
     gap: 24px;
     width: 530px;
     height: 104px;
     background-color: chocolate;
+}
+
+
+#Recommended_title{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
 }
 
 
@@ -119,10 +128,20 @@ body{
 
 #foto_conteiner{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 24px;
     height: 462px;
     width: 840px;
     background-color: chocolate;
 
+}
+
+.foto_sixe{
+    width: 192px;
+    height: 219px;
+}
+
+
+#reco_buttons{
+      
 }
