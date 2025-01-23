@@ -29,8 +29,6 @@ body{
     align-items: center;
     justify-content: center;
     height: 72px;
-    
-    background-color: aqua;
 }
 
 #nav_box{
@@ -39,7 +37,6 @@ body{
     justify-content: space-between;
     width: 840px;
     height: 40px;
-    background-color: chocolate;
 }
 
 
@@ -96,7 +93,9 @@ body{
     display: flex;
     width: 840px;
     height: 370px;
-    background-color: burlywood;
+    background-image: url(../images/batman.png);
+    background-image: url(../images/cover_car.png);
+    background-repeat: no-repeat;
 }
 
 #Recommended_box{
@@ -132,13 +131,93 @@ body{
     gap: 24px;
     height: 462px;
     width: 840px;
-    background-color: chocolate;
-
 }
 
 .foto_sixe{
     width: 192px;
     height: 219px;
+}
+
+
+#batman_text{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 355px;
+    height: 390px;
+    padding: 40px;
+}
+
+
+#batt_first_box{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#butt_last_box{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.batt_gray_text{
+    color: #7B7B7B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+
+#batt_postition{
+    display: flex;
+    gap: 8px;
+}
+
+
+
+#battman_title{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+
+
+#butt_botton{
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 135px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px 32px;
+    background: #A00;
+    box-shadow: 5px 2px 11.9px 0px #A00
+}
+
+
+
+#butt_year{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+
+
+#butt_paragraf{
+    color: #7B7B7B;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
 }
 
 
