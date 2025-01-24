@@ -9,7 +9,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #770e0e;
+    background: #0E0E0E;
 }
 
 
@@ -17,25 +17,25 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
-    max-width: 1440px;
     width: 100%;
-    height: 1446px;
     gap: 32px;
+    padding: 20px;
     background: #0E0E0E;
 }
 
 #header_conteiner{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     height: 72px;
+    width: 768px;
 }
 
 #nav_box{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 840px;
+    width: 100%;
     height: 40px;
 }
 
@@ -89,11 +89,22 @@ body{
 }
 
 
+#bat_conteiner{
+   width: 370px;
+   height: 472px;
+   align-items: flex-end;
+   background-repeat: no-repeat;
+   background-image: url(../images/batman.png);
+}
+
+
 #Batman_conteiner{
     display: flex;
-    width: 840px;
-    height: 370px;
-    background-image: url(../images/batman.png);
+    justify-content: space-between;
+    max-width: 840px;
+    width: 100%;
+    height: 472px;
+    border-radius: 16px;
     background-image: url(../images/cover_car.png);
     background-repeat: no-repeat;
 }
@@ -103,7 +114,8 @@ body{
     align-items: center;
     flex-direction: column;
     gap: 24px;
-    width: 530px;
+    max-width: 530px;
+    width: 100%;
     height: 104px;
     background-color: chocolate;
 }
@@ -136,6 +148,13 @@ body{
 .foto_sixe{
     width: 192px;
     height: 219px;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+
+
+.foto_sixe :hover{
+    backdrop-filter: blur(2px);
 }
 
 
@@ -143,8 +162,8 @@ body{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    width: 355px;
-    height: 390px;
+    max-width: 355px;
+    max-height: 390px;
     padding: 40px;
 }
 
