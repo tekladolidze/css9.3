@@ -13,6 +13,7 @@ body{
 }
 
 
+
 #full_stack_conteiner{
     display: flex;
     align-items: center;
@@ -23,6 +24,9 @@ body{
     background: #0E0E0E;
 }
 
+
+
+
 #header_conteiner{
     display: flex;
     align-items: center;
@@ -31,6 +35,9 @@ body{
     width: 768px;
 }
 
+
+
+
 #nav_box{
     display: flex;
     align-items: center;
@@ -38,6 +45,8 @@ body{
     width: 100%;
     height: 40px;
 }
+
+
 
 
 #nav_ul{
@@ -50,6 +59,9 @@ body{
     line-height: 24px;
 }
 
+
+
+
 .diferent_li{
     color: #FFF;
     font-size: 16px;
@@ -57,9 +69,14 @@ body{
     line-height: 24px;
 }
 
+
+
+
 #nav_ul :hover{
     color: #FFF;
 }
+
+
 
 
 #white_title{
@@ -70,10 +87,16 @@ body{
 }
 
 
+
+
+
 #titile_box{
     display: flex;
     gap: 0px;
 }
+
+
+
 
 #red_title{
     color: #A00;
@@ -82,11 +105,16 @@ body{
     line-height: 40px;
 }
 
+
+
 #avatar_box{
     display: flex;
     align-items: center;
     gap: 12px;
 }
+
+
+
 
 
 #bat_conteiner{
@@ -96,6 +124,9 @@ body{
    background-repeat: no-repeat;
    background-image: url(../images/batman.png);
 }
+
+
+
 
 
 #Batman_conteiner{
@@ -109,6 +140,9 @@ body{
     background-repeat: no-repeat;
 }
 
+
+
+
 #Recommended_box{
     display: flex;
     align-items: center;
@@ -121,12 +155,17 @@ body{
 }
 
 
+
+
 #Recommended_title{
     color: #FFF;
     font-size: 32px;
     font-weight: 700;
     line-height: 40px;
 }
+
+
+
 
 
 
@@ -137,6 +176,9 @@ body{
     gap: 32px;
 }
 
+
+
+
 #foto_conteiner{
     display: flex;
     flex-wrap: wrap;
@@ -144,6 +186,8 @@ body{
     height: 462px;
     width: 840px;
 }
+
+
 
 
 #cards_style{
@@ -160,6 +204,9 @@ body{
     overflow: hidden;
 }
 
+
+
+
 #cards_style2{
     display: flex;
     align-items: center;
@@ -169,10 +216,48 @@ body{
     width: 192px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     position: relative;
-    overflow: hidden;
+    transition: filter 0.3s ease;
 }
+
+
+
+
+#cards_style2:hover{
+    filter: blur(5px);
+}
+
+
+
+
+.show_button_2{
+    display: flex;
+    display: none;
+    background-color: rgba (0, 0, 0, 0,7);
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px 32px;
+    background: #A00;
+    box-shadow: 5px 2px 11.9px 0px #A00;
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+}
+
+
+
+
+
+#cards_style2:hover .show_button_2{
+    display: block;
+}
+
+
+
+
+
 
 #cards_style3{
     display: flex;
@@ -183,10 +268,20 @@ body{
     width: 192px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     position: relative;
-    overflow: hidden;
+    transition: filter 0.3s ease;
 }
+
+
+#cards_style3 :hover{
+    filter: blur(5px);
+}
+
+
+#cards_style3:hover .show_button_2{
+    display: block;
+}
+
 
 #cards_style4{
     display: flex;
@@ -197,10 +292,19 @@ body{
     width: 192px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     position: relative;
-    overflow: hidden;
+    transition: filter 0.3s ease;
 }
+
+#cards_style4 :hover{
+    filter: blur(5px);
+}
+
+
+#cards_style4:hover .show_button_2{
+    display: block;
+}
+
 
 #cards_style5{
     display: flex;
@@ -211,10 +315,19 @@ body{
     width: 192px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     position: relative;
-    overflow: hidden;
+    transition: filter 0.3s ease;
 }
+
+#cards_style5 :hover{
+    filter: blur(5px);
+}
+
+
+#cards_style5:hover .show_button_2{
+    display: block;
+}
+
 
 
 #cards_style6{
@@ -226,10 +339,19 @@ body{
     width: 192px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     position: relative;
-    overflow: hidden;
+    transition: filter 0.3s ease;
 }
+
+#cards_style6 :hover{
+    filter: blur(5px);
+}
+
+
+#cards_style6:hover .show_button_2{
+    display: block;
+}
+
 
 #cards_style7{
     display: flex;
@@ -240,10 +362,19 @@ body{
     width: 192px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     position: relative;
-    overflow: hidden;
+    transition: filter 0.3s ease;
 }
+
+#cards_style7 :hover{
+    filter: blur(5px);
+}
+
+
+#cards_style7:hover .show_button_2{
+    display: block;
+}
+
 
 #cards_style8{
     display: flex;
@@ -254,10 +385,19 @@ body{
     width: 192px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     position: relative;
-    overflow: hidden;
+    transition: filter 0.3s ease;
 }
+
+#cards_style8 :hover{
+    filter: blur(5px);
+}
+
+
+#cards_style8:hover .show_button_2{
+    display: block;
+}
+
 
 
 
