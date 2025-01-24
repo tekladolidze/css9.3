@@ -145,17 +145,123 @@ body{
     width: 840px;
 }
 
-.foto_sixe{
-    width: 192px;
-    height: 219px;
-    flex-shrink: 0;
+
+#cards_style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 16px;
+    background-image: url(../images/img1.png);
+    width: 192px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+#cards_style2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    background-image: url(../images/image2.png);
+    width: 192px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+#cards_style3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    background-image: url(../images/image3.png);
+    width: 192px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+#cards_style4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    background-image: url(../images/image4.png);
+    width: 192px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+#cards_style5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    background-image: url(../images/image5.png);
+    width: 192px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
 }
 
 
-.foto_sixe :hover{
-    backdrop-filter: blur(2px);
+#cards_style6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    background-image: url(../images/image6.png);
+    width: 192px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
 }
+
+#cards_style7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    background-image: url(../images/image7.png);
+    width: 192px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+#cards_style8{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    background-image: url(../images/image8.png);
+    width: 192px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
 
 
 #batman_text{
@@ -243,3 +349,17 @@ body{
 #reco_buttons{
       
 }
+
+.card_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    padding: 12px 24px;
+    gap: 10px;
+    border: 0;
+    border-radius: 8px 32px;
+    background: #A00;
+    box-shadow: 5px 2px 11.9px 0px #A00;
+}
+
