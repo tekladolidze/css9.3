@@ -7,8 +7,9 @@
 
 body {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
+    justify-content: center;
     background: #0E0E0E;
 }
 
@@ -16,12 +17,14 @@ body {
 
 #full_stack_conteiner {
     display: flex;
+    max-width: 840px;
+    width: 100%;
     align-items: center;
     flex-direction: column;
-    width: 100%;
     gap: 32px;
-    padding: 20px;
     background: #0E0E0E;
+    min-height: 1446px;
+    
 }
 
 
@@ -30,21 +33,32 @@ body {
 #header_conteiner {
     display: flex;
     align-items: center;
+    justify-content: center;
     justify-content: space-between;
     height: 72px;
-    width: 768px;
+    flex-wrap: wrap;
+    min-width: 840px;
+    width: 100%;
+    gap: 50px;
+    
 }
 
 
+#burger_logo{
+    display: none;
+}
 
-
-#nav_box {
+#header_box{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    max-width: 840px;
     width: 100%;
-    height: 40px;
+    justify-content: space-around;
+  
+    
+
 }
+
 
 
 
@@ -180,10 +194,10 @@ body {
 
 #foto_conteiner {
     display: flex;
-    flex-wrap: wrap;
     gap: 24px;
-    height: 462px;
-    width: 840px;
+    flex-wrap: wrap;
+    max-width: 840px;
+    width: 100%;
 }
 
 
@@ -196,6 +210,7 @@ body {
     border-radius: 16px;
     background-image: url(../images/img1.png);
     width: 192px;
+    height: 219px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -213,6 +228,7 @@ body {
     border-radius: 16px;
     background-image: url(../images/image2.png);
     width: 192px;
+    height: 219px;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -265,6 +281,7 @@ body {
     border-radius: 16px;
     background-image: url(../images/image3.png);
     width: 192px;
+    height: 219px;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -289,6 +306,7 @@ body {
     border-radius: 16px;
     background-image: url(../images/image4.png);
     width: 192px;
+    height: 219px;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -297,6 +315,7 @@ body {
 
 #cards_style4 :hover {
     filter: blur(5px);
+    width: 192px;
 }
 
 
@@ -312,6 +331,7 @@ body {
     border-radius: 16px;
     background-image: url(../images/image5.png);
     width: 192px;
+    height: 219px;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -336,6 +356,7 @@ body {
     border-radius: 16px;
     background-image: url(../images/image6.png);
     width: 192px;
+    height: 219px;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -359,6 +380,7 @@ body {
     border-radius: 16px;
     background-image: url(../images/image7.png);
     width: 192px;
+    height: 219px;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -382,6 +404,7 @@ body {
     border-radius: 16px;
     background-image: url(../images/image8.png);
     width: 192px;
+    height: 219px;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -466,7 +489,10 @@ body {
     box-shadow: 5px 2px 11.9px 0px #A00
 }
 
-
+#button_position{
+    display: flex;
+    gap: 8px;
+}
 
 #butt_year {
     color: #FFF;
@@ -485,7 +511,7 @@ body {
 }
 
 
-#reco_buttons {}
+
 
 .card_button {
     display: flex;
@@ -504,6 +530,7 @@ body {
 #search_div {
     display: flex;
     justify-content: center;
+    width: 529px;
     padding: 8px 16px 8px 12px;
     gap: 10px;
     height: 40px;
@@ -515,6 +542,13 @@ form {
     display: flex;
     align-items: center;
     gap: 16px;
+}
+
+form :active{
+    border-radius: 24px;
+    border: 1px solid #A00;
+    background: #191919;
+    
 }
 
 #search_box {
@@ -532,6 +566,7 @@ form {
     background: #191919;
     border: 0;
 }
+
 
 #Year_style {
     padding: 9px 14px;
@@ -557,4 +592,87 @@ form {
     border-radius: 24px;
     height: 40px;
     color: #7B7B7B;
+}
+
+
+/*___________tablet__________*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+   #full_stack_conteiner{
+    align-items: center;
+    max-width: 704px;
+    width: 100%;
+    max-height: 1446px;
+   }
+
+   #burger_{
+    display: none;
+   }
+
+   .show_button_2{
+    width: 158px;
+    height: 219px;
+   }
+}
+
+/* ________mobile________________ */
+@media screen and (min-width: 320px) and (max-width: 767px) {
+     #full_stack_conteiner{
+        max-width: 768px;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 2883px;
+     }
+
+
+     #header_conteiner{
+        display: flex;
+        min-width:320px ;
+        justify-content: space-between;
+     }
+
+    #nav_ul{
+        display: none;
+    }
+
+    .diferent_li{
+        display: none;
+    }
+
+    #main_conteiner{
+        max-width: 288px;
+        width: 100%;
+    }
+
+    form{
+        flex-direction: column;
+        margin-bottom: 20px;
+       
+    }
+
+   #button_position{
+      gap: 8px;
+      margin-bottom: 32px;
+   }
+
+    .show_button_2{
+        width: 288px;
+        height: 219px;
+    }
+
+   #foto_conteiner{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   }
+
+   #batman_conteiner{
+      width: 100%;
+   }
+
+   #star_icon{
+     width: 137px;
+     height: 24px;
+   }
 }
